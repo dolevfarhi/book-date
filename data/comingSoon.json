@@ -1,0 +1,64 @@
+{
+    "company-name":"steimatzky",
+    "company-id":500,
+    "bookDate": [{      
+        "type":"may",
+        "id": 1,
+        "books":[{
+            "name" :"Love, hate and other filters",
+            "author":"Samira Ahmed",
+            "length":"100 pages",
+            "date":"15.5.18"
+        },{
+            "name" :"The wedding date",
+            "author":"Jasmine Guillory",
+            "length":"60 pages",
+            "date":"20.5.18"
+        },{
+            "name" :"Force of nature",
+            "author":"Jane Harper",
+            "length":"150 pages",
+            "date":"30.5.18"
+        }]
+    },{
+        "type":"june",
+        "id": 2,
+        "books":[{
+            "name" :"harryPotter",
+            "author": "Joanne Rowling",
+            "length":"500 pages",
+            "data":"8.6.18"
+        },{
+            "name" :"bringItOn",
+            "author":"josh cohen",
+            "length":"120 pages",
+            "date":"10.6.18"
+        },{
+            "name" :"twilight",
+            "author" :"Stephenie Meyer",
+            "length":"150 pages",
+            "date":"28.6.18"
+        }]
+     },{
+        "type":"july",
+        "id":3,
+        "date":"30.7.18",
+        "books":[{
+            "name" :"The poet X",
+            "author": "Jacqueline Woodson",
+            "length":"90 pages",
+            "date":"8.7.18"
+        },{
+            "name" :"skyscaraper",
+            "author":"Zane",
+            "length":"120 pages",
+            "date":"19.7.18"
+        },{
+            "name" :"Girls burn brighter",
+            "author" :"Shobha Rao",
+            "length":"150 pages",
+            "date":"19.7.18"
+        }]
+
+    }]
+}

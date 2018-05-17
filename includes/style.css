@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+header h1{
+  font-weight: bold;
+  text-align: center;
+  color: #C71585;
+}
+h3{
+  font-weight: bold;
+  text-align: center;
+  color: #FFE4E1;
+}
+p{
+  font-family:"arial";
+  font-size:14px;
+}
+#wrapper{
+  width: 80%;
+  margin: auto;
+  background-color: #FF1493;
+
+}
+header{
+  width: 100%;
+  margin: auto;
+  background: #FF69B4;
+}
+

@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hw1</title>
+        <link rel="stylesheet" href="includes/style.css">
+    </head>
+    <body>
+            
+                <div id="wrapper">
+                <header>
+                    <h1>welcome to bookstore</h1> 
+                </header>
+                <br>
+                  <h3>Categories by books</h3>
+                    <section>
+                    <p>Get all data (GET- Without parameters):</p>
+                    <a target="_blank" href="https://book-date.herokuapp.com/getAllData">get without parameters</a><br><br>
+                    <p>Get type by id (POST 'book_id' param required):</p>
+                    <a target="_blank" href="https://book-date.herokuapp.com/getDateBookType">post with 1 parameters</a><br><br>
+                    <p>Get specific data by id and book (GET'book_id' and 'movie' params required):</p>
+                    <a target="_blank" href="https://book-date.herokuapp.com/getbookData/:book_id/:name">get with 2 parameters</a>
+                    </section>
+                    <br>
+                     <h3>Data Model Example:</h3>
+                    `<p>{<br>
+                     <b>"type"</b>: "may",<br>
+                     <b>"id"</b>: 1,<br>
+                     <b>"books"</b>: [<br>
+                      {<br>
+                     <b>"name"</b>: "Love, hate and other filters",<br>
+                     <b>"author"</b>: Samira Ahmed<br>
+                     <b>"length"</b>:"500 pages"<br>
+                      },<br>
+                      {<br>
+                     <b>"name"</b>: "twilight",<br>
+                     <b>"author"</b>: Stephenie Meyer<br>
+                     <b>"length"</b>:"150 pages"<br>
+                      },<br>
+                      {<br>
+                     <b>"name"</b>: "The poet X",<br>
+                     <b>"author"</b>: Jacqueline Woodson<br>
+                     <b>"length"</b>:"90 pages"<br>
+                      }<br>
+             ]<br>
+        }
+    </p>
+                </div>
+    </body>
+</html>
